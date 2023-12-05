@@ -1,0 +1,38 @@
+{
+  "name": "drum-machine",
+  "version": "1.0.0",
+  "description": "A drum machine",
+  "main": "index.js",
+  "scripts": {
+    "lint:css": "stylelint --fix \"src/**/*.css\"",
+    "lint:js": "eslint --fix \"src/**/*.js\"",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n-are-n/drum-machine.git"
+  },
+  "keywords": [
+    "drum"
+  ],
+  "author": "Prasad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/n-are-n/drum-machine/issues"
+  },
+  "homepage": "https://github.com/n-are-n/drum-machine#readme",
+  "devDependencies": {
+    "@babel/core": "^7.23.5",
+    "@babel/preset-env": "^7.23.5",
+    "eslint": "^8.55.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-n": "^16.3.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "jest": "^29.7.0",
+    "jest-cli": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "stylelint-config-concentric-order": "^5.2.0",
+    "stylelint-config-standard": "^34.0.0"
+  }
+}
